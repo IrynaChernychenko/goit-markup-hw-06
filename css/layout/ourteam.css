@@ -1,0 +1,114 @@
+.ourteam {
+  padding: 96px 0;
+  background-color: #f4f4fd;
+}
+.conteiner-ourteam {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-top: 8px;
+}
+.social-netw {
+  width: 40px;
+  height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-link {
+  fill: #ffffff;
+  background-color: var(--logo-color);
+  border: 1px solid #4d5ae5;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: #404bbf;
+}
+.icon-socials {
+  fill: var(--footer-color);
+}
+.ourteam-title {
+  color: var(--logo-accent-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.ourteam-subtitle {
+  color: var(--logo-accent-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.picture-ourteam {
+  background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.ourteam-name {
+  padding: 32px 0;
+  text-align: center;
+}
+.pic-team {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .picture-ourteam {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 264px;
+  }
+  .conteiner-ourteam {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1168px) {
+  .conteiner-ourteam {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+  .ourteam {
+    padding: 120px 0;
+  }
+  .picture-ourteam {
+    background-color: #ffffff;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+/* 
+
+
+*/
